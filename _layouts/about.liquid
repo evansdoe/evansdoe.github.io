@@ -3,20 +3,20 @@ layout: default
 ---
 <div class="post">
   <script>
-  // Automatically open external links in a new tab
-  document.addEventListener("DOMContentLoaded", function() {
-    const links = document.querySelectorAll('a[href^="http"]');
-    
-    // Loop through each external link
-    links.forEach(link => {
-      // Set each link to open in a new tab
-      link.setAttribute("target", "_blank");
-      
-      // Adding 'noopener noreferrer' for security reasons
-      // This prevents the new tab from accessing the original page's window object
-      link.setAttribute("rel", "noopener noreferrer");
+    // Automatically open external links in a new tab
+    document.addEventListener('DOMContentLoaded', function () {
+      const links = document.querySelectorAll('a[href^="http"]');
+
+      // Loop through each external link
+      links.forEach((link) => {
+        // Set each link to open in a new tab
+        link.setAttribute('target', '_blank');
+
+        // Adding 'noopener noreferrer' for security reasons
+        // This prevents the new tab from accessing the original page's window object
+        link.setAttribute('rel', 'noopener noreferrer');
+      });
     });
-  });
   </script>
   <header class="post-header">
     <h1 class="post-title">
