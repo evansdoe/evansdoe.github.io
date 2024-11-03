@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-11-04 to 2024-11-22
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Teaching masters students Experimental Mathematics with [SageMath](http://www.sagemath.org) at [AIMS South Africa](http://www.aims.ac.za).
