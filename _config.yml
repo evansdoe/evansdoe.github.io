@@ -256,6 +256,8 @@ exclude:
   - _pages/profiles.md
   - _pages/projects.md
   - _pages/repositories.md
+  - _pages/cv.md
+  - _pages/teaching.md
   - _projects/
 keep_files:
   - CNAME
